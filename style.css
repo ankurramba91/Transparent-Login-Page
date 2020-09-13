@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding:0px ;
+    color: rgb(247, 239, 225);
+}
+
+body{
+background: url(bg.jpg) no-repeat center center fixed;
+background-size: cover;
+font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.container{
+    
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    
+}
+.container h1{
+    font-size: 43px;
+    border-bottom: 4px solid rgb(241, 218, 88);
+    margin-bottom: 6px;
+    padding: 0px 15px;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 2px solid rgb(241, 218, 88);
+    margin: 32px 0px;
+    
+
+}
+
+.box input{
+    width: 73%;
+    outline: none;
+   
+    font-size: 20px;
+    background: none;
+    border: none;
+    
+}
+#btn{
+    cursor: pointer;
+    outline: none;
+    width: 41%;
+    margin: 1px 0px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 2px solid rgb(241, 218, 88);
+    background: none;
+    font-weight: bold;
+    padding: 6px 2px;
+    margin-left: 14px;
+}
+
+
+#btn:hover{
+    color: gold;
+    background-color: white;
+    opacity: 0.4;
+}
+.box i{
+    width: 40px;
+    padding: 0px 12px;
+    text-align: center;
+}
